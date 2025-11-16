@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #66ccff;
+    font-family: sans-serif;
+}
+
+#aquarium {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+#diver1 { width: 60px; }
+#diver2 { width: 80px; }
+#diver3 { width: 70px; }
+
+#shark { width: 150px; }
+#turtle { width: 100px; }
+
+
+
+img {
+    position: absolute;
+    width: 80px;
+    height: auto;
+    user-select: none;
+    transition: transform 0.1s linear;
+}
